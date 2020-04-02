@@ -3,30 +3,11 @@ import java.util.Random;
 
 public class Main {
 
-//    private static final int A = 10;
-//    private static final int B = 8;
-//    private static Operator calc = new Operator();
-//
-//    public static void main(String[] args) {
-//
-//        int sum = calc.sum(A, B);
-//    int subt = calc.subtraction(A, B);
-//    double mult = calc.multiplication(A, B);
-//    double div = calc.division(A, B);
-//        System.out.printf("Summ = %d\nSubtraction = %d\nMultiplication = %.2f\nDivision = %.2f\n", sum, subt, mult, div);
-//        System.out.printf("Try to get method from class: %.2f", getMethod("division"));
-//}
-//
-//    private static double getMethod(String s) {
-//        double c = 0;
-//        try {
-//            Method method = calc.getClass().getMethod(s, int.class, int.class);
-//            c = (double) method.invoke(calc, A, B);
-//        } catch (Exception e) {
-//            System.out.println("There is no method " + s + " in this class");
-//        }
-//        return c;
-//    }
+
+//    1) Написать класс в котором есть 4 метода: +-/*
+//Которые принимают 2 параметра типа int.
+//Нужно написать метод который по строковому имени метода найдет его и вызовет, при помощи Reflection.
+//Если такого метода нет выдать ошибку.
 
     private static final Random RANDOM = new Random();
     private static final int A = RANDOM.nextInt(10);
